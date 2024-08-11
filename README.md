@@ -43,21 +43,15 @@ WanderLust is a web application designed for managing and booking accommodations
 
     Navigate to Project Directory:
 
-    bash
-
 cd WanderLust
 
 Install Dependencies:
-
-bash
 
 npm install
 
 Set Up Environment Variables:
 
     Create a .env file in the root directory and add your MongoDB connection string:
-
-    plaintext
 
     MONGO_URL=mongodb://127.0.0.1:27017/wanderlust
 
@@ -87,13 +81,9 @@ Contributing
 
     Clone Your Fork:
 
-    bash
-
 git clone https://github.com/YOUR_USERNAME/WanderLust.git
 
 Create a New Branch:
-
-bash
 
 git checkout -b feature/your-feature
 
@@ -103,14 +93,10 @@ Make Your Changes:
 
 Commit Your Changes:
 
-bash
-
 git add .
 git commit -m "Add a descriptive commit message"
 
 Push to Your Fork:
-
-bash
 
     git push origin feature/your-feature
 
@@ -126,8 +112,5 @@ Acknowledgements
     Mongoose for MongoDB object modeling.
     Node.js and Express.js for backend development.
     Git for version control.
-
-css
-
 
 This README file provides a clear and comprehensive overview of your project, making it easier for others to understand, use, and contribute to 
