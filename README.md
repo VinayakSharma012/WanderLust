@@ -57,8 +57,6 @@ Set Up Environment Variables:
 
 Start the Application:
 
-bash
-
     npm start
 
     The application will be running on http://localhost:3000.
