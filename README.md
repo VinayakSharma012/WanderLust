@@ -1,0 +1,133 @@
+# WanderLust
+
+WanderLust is a web application designed for managing and booking accommodations, similar to Airbnb. It enables users to create, view, and book property listings with a user-friendly interface.
+
+## Features
+
+- **Create and Manage Listings:** Add new listings, update existing ones, and delete listings as needed.
+- **Search and Filter:** Find available accommodations based on location, price, and other criteria.
+- **Booking System:** Book accommodations directly through the platform.
+- **User Authentication:** Secure login and registration for managing personal information and bookings.
+
+## Technologies Used
+
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
+  - Bootstrap
+
+- **Backend:**
+  - Node.js
+  - Express.js
+
+- **Database:**
+  - MongoDB with Mongoose
+
+- **Version Control:**
+  - Git
+
+## Installation
+
+### Prerequisites
+
+- **Node.js** (v14 or later)
+- **npm** (Node Package Manager)
+- **MongoDB** (local or remote instance)
+
+### Steps
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/VinayakSharma012/WanderLust.git
+
+    Navigate to Project Directory:
+
+    bash
+
+cd WanderLust
+
+Install Dependencies:
+
+bash
+
+npm install
+
+Set Up Environment Variables:
+
+    Create a .env file in the root directory and add your MongoDB connection string:
+
+    plaintext
+
+    MONGO_URL=mongodb://127.0.0.1:27017/wanderlust
+
+Start the Application:
+
+bash
+
+    npm start
+
+    The application will be running on http://localhost:3000.
+
+Usage
+
+    Create a New Listing:
+        Navigate to the "Create Listing" page and fill out the form to add a new property listing.
+
+    Search for Listings:
+        Use the search functionality on the homepage to find accommodations based on your criteria.
+
+    Make a Booking:
+        Select a listing from the search results and follow the steps to book it.
+
+Contributing
+
+    Fork the Repository:
+        Click the "Fork" button on GitHub to create your copy of the repository.
+
+    Clone Your Fork:
+
+    bash
+
+git clone https://github.com/YOUR_USERNAME/WanderLust.git
+
+Create a New Branch:
+
+bash
+
+git checkout -b feature/your-feature
+
+Make Your Changes:
+
+    Implement your feature or fix a bug.
+
+Commit Your Changes:
+
+bash
+
+git add .
+git commit -m "Add a descriptive commit message"
+
+Push to Your Fork:
+
+bash
+
+    git push origin feature/your-feature
+
+    Create a Pull Request:
+        Go to the original repository on GitHub and create a pull request from your branch.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+Acknowledgements
+
+    Bootstrap for the front-end framework.
+    Mongoose for MongoDB object modeling.
+    Node.js and Express.js for backend development.
+    Git for version control.
+
+css
+
+
+This README file provides a clear and comprehensive overview of your project, making it easier for others to understand, use, and contribute to 
