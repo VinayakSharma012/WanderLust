@@ -7,6 +7,7 @@ const sampleListings = [
     price: 1500,
     location: "Malibu",
     country: "United States",
+    owner: '6703e44ae0d4e24b02e46a26',
   },
   {
     title: "Modern Loft in Downtown",
