@@ -41,20 +41,20 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 
-const store = MongoStore.create({
-    mongoUrl: dbUrl,
-    crypto: {
-        secret: process.env.SECRET,
-    },
-    touchAfter: 24 * 3600, //for lazy update
-});
+// const store = MongoStore.create({
+//     mongoUrl: dbUrl,
+//     crypto: {
+//         secret: process.env.SECRET,
+//     },
+//     touchAfter: 24 * 3600, //for lazy update
+// });
 
-store.on("error", (err) => {
-    console.log("ERROR in MONGO SESSION STORE", err);
-});
+// store.on("error", (err) => {
+//     console.log("ERROR in MONGO SESSION STORE", err);
+// });
 
 const sessionOptions = {
-    store,
+    
     secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
