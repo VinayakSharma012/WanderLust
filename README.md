@@ -4,12 +4,10 @@ WanderLust is a web application designed for managing and booking accommodations
 
 ## Features
 
-- **User Authentication: **Secure sign-up and login functionality.
-– **Map Integration: **Utilizes Mapbox for interactive map features to display and locate listings efficiently.
-– **Review System: **Customers can write and submit reviews for each listing, providing feedback and ratings.
-– **Image Upload System: **Owners can upload pictures of their listings, with images stored securely on the cloud
-using Cloudinary.
-
+- **User Authentication:** Secure sign-up and login functionality.  
+- **Map Integration:** Utilizes **Mapbox** for interactive map features to efficiently display and locate listings.  
+- **Review System:** Allows customers to write and submit reviews for each listing, providing feedback and ratings.  
+- **Image Upload System:** Enables owners to upload pictures of their listings, with images securely stored on the cloud using **Cloudinary**.  
 ## Technologies Used
 
 - **Frontend:**
